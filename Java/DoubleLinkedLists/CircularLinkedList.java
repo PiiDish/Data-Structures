@@ -174,5 +174,8 @@ public class CircularLinkedList<E>
 	{
 		return count==0;
 	}
-
+	public void reset()
+	{
+		itr = senteniel;
+	}
 }
